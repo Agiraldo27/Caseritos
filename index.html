@@ -1,70 +1,195 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AngieGiraldo</title>
+    <title>Caseritos</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <META name="Description" content="Productos que ofrece caseritos">
+    <META name="Keywords" content="Tienda virtual de Caseritos">  
+        <style>
+            h3 {
+                font-family: 'Courier New', Courier, monospace;
+                color: peru;
+                font-size: x-large;
+            }
+            h1 {
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: chocolate;
+                text-align: center;
+                font-size:xx-large;
+            }
+            h2{
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                color: darksalmon;
+            }
+            p {
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+        </style>
 </head>
+
 <body>
     <header>
-    Logo
+        <body background="images.png">
+        <div class="menu container">
+            <a href="#" class="Categorías">Categorías</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+            </label>
+
+            <nav class="nav bar">
+                <ul>
+                    <li><a href="#">Inicio</a>
+                    <li><a href="#">Productos</a>
+                    <li><a href="#">Contacto</a>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header-content container">
+
+            <div class="content">
+
+                <h1> Bienvenid@ a Caseritos </h1>
+                <div style="text-align: center;">
+                 <img src="Logocaseritos2.jpg" width="310" height="380" aling="center">
+                </div>
+                <h3>Sobre caseritos</h3>
+                <p>
+                    Caseritos es una tienda virtual Tulueña que busca vender alimentos cárnicos y salsas de la mejor
+                    calidad, (chorizos, tortas de hamburguesa, chimichurri, encurtido) elaborados con los mejores
+                    ingredientes, brindando productos caseros y deliciosos sin tener la necesidad de salir de sus casas
+                    únicamente se debe pedir el domicilio, con una preparación rápida y fácil para sus comidas.
+                </p>
+            </div>
+        </div>
     </header>
-    <header>
-    Navegation bar
-    </header>
- <header>
-        <h1>
-        Bienvenido a caseritos
-        </h1>
-        <img scr= "Logocaseritos.png" width="200" height="240" Align="TOP">
-        <img src="Logocaseritos" alt="">
-        <h1>
-            ¿Quienes somos?
-        </h1>
-        <p>
-            Caseritos es una tienda virtual Tulueña que busca vender alimentos cárnicos y salsas de la mejor calidad, (chorizos, tortas de hamburguesa, chimichurri, encurtido) elaborados con los mejores ingredientes, brindando productos caseros y deliciosos sin tener la necesidad de salir de sus casas únicamente se debe pedir el domicilio, con una preparación rápida y fácil para sus comidas.
-        </p>
-        <h1>
-        Misión 
-        </h1>
-        <p>
-            Se busca llegar a personas que busquen alimentos sanos, libres de químicos y naturales, se desea tener otro punto de vista muy diferente al tradicional sobre estos alimentos, teniendo una muy buena calidad, conservando un buen sabor, brindando una atención personalizada a cada uno de nuestros clientes.
-        </p>
-        <h1>
-        Visión
-        </h1>
-        <p>
-            Ser reconocidos regionalmente y siendo posible nacionalmente, dominando el negocio del sector de alimentos caseros y artesanales, siendo una de las primeras opciones a la hora de escoger alimentos de este tipo, ampliar la carta de alimentos que se ofrecen teniendo altos estándares de calidad y una gran fidelidad por parte de nuestros clientes, se desea tener la implementación de un buen marketing con ayuda de un profesional. 
-        </p>
-                <h2>
-        <OL>
-            Productos
-        </OL>
-                </h2>
-        <ul>
-            <li> 
-                <h2>
-            Chorizos
-                </h2>
-            </li>
-            <li>
-                <h2>
-            Tortas de carne
-                </h2>
-            </li>
-            <li>
-                <h2>
-            Encurtido
-                </h2>
-            <li>
-                <h2>
-            Chimichurri
-                </h2>
-            </li>
-        </ul>
- </header>
- 
- 
+
+    <main class="services container">
+        <div class="service">
+            <h3> Misión </h3>
+             <img src="iconomision.png" alt="" width="180" height="100">
+             <p>
+                Se busca llegar a personas que busquen alimentos sanos, libres de químicos y naturales, se desea tener
+                otro punto de vista muy diferente al tradicional sobre estos alimentos, teniendo una muy buena calidad,
+                conservando un buen sabor, brindando una atención personalizada a cada uno de nuestros clientes.
+            </p>
+        </div>
+        <div class="service">
+            <h3> Visión </h3>
+            <img src="iconovision.png" alt="" width="200" height="180">
+            <p>
+                Ser reconocidos regionalmente y siendo posible nacionalmente, dominando el negocio del sector de
+                alimentos caseros y artesanales, siendo una de las primeras opciones a la hora de escoger alimentos de
+                este tipo, ampliar la carta de alimentos que se ofrecen teniendo altos estándares de calidad y una gran
+                fidelidad por parte de nuestros clientes, se desea tener la implementación de un buen marketing con
+                ayuda de un profesional.
+            </p>
+        </div>
+    </main>
+
+    <button onclick="location.href='angieday2006@gmail.com';">Escribenos</button>
+
+    <section class="productos container">
+
+        <h1>Productos</h1>
+
+        <div class="Productos">
+        
+           <ul>
+             <li>
+                 <h2>
+                    Chorizos
+                 </h2>
+                 <img src="chorizos.png" width="150" height="180">
+                 <p> 
+                   Son unos chorizos perfectos para compañar cada comida, fáciles y prácicos, los puedes preparar
+                    de mil maneras como tu más los desees (asados, fritos, a la naranja, a la parrilla etc.) Son
+                    caseros y artesanales, bajos en condimentos y deliciosos.
+                    <details>
+                        <summary>Haz click aquí para más detalles</summary>
+                        <p>Paquete de 5</p>
+                        <p>Precio: $15.000</p>
+                        <p>¿Cómo conservarlos? Guardalos en tu congelador, el día anterior a prepararlos los puedes meter a la nevera y 30 minutos antes de prepararlos sácalos de la nevera.</p>
+                    </details>
+             </li>
+             <li>
+                 <h2>
+                    Tortas de carne
+                 </h2>
+                 <img src="tortasdehamburguesa.png" width="150" height="180">
+                 <p>
+                    Estas tortas de carne o hamburguesa, son de carne pulpa de res, bajas en condimentos, claramente
+                    como todos nuestros productos
+                    son caseras y artesanales, perfecas para compañar las loncheras de los más peques y también
+                    comidas de los más grandes.
+                    <details>
+                        <summary>Haz click aquí para más detalles</summary>
+                        <p>Paquete de 5</p>
+                        <p>Precio: $18.000</p>
+                        <p>¿Cómo conservarlos? Guardalos en tu nevera, si los vas a guardar por muchos días es preferible meterlos en el congelador</p>
+                    </details>
+             </li>
+             <li>
+                 <h2>
+                    Encurtido
+                 </h2>
+                 <img src="encurtido.png" width="130" height="180">
+                 <p> Este encurtido paisa o ají se usa para sazonar los alimentos, es un aderezo para acompañar tus
+                    comidas, darles un toque especial y
+                    diferente, se le puede agregar picante si así lo deseas.
+                    <details>
+                        <summary>Haz click aquí para más detalles</summary>
+                        <p>Cantidad: 370ml</p>
+                        <p>Precio: $8.000</p>
+                        <p>¿Cómo conservarlo? Siempre debes guardarlo en tu nevera, siempre utiliza una cuchara limpia y no debe tener contacto directo con los alimentos.
+                    </details>
+             <li>
+                 <h2>
+                    Chimichurri
+                 </h2>
+                 <img src="chimichurri (2).png" width="150" height="180">
+                 <p> Este chimichurri de precedencia argentina es perfecto para acompañar tus carnes, es un producto
+                    muy famoso para acompañar tus asados, se realiza con hierbas frescas y su base es de perejil.
+                    <details>
+                        <summary>Haz click aquí para más detalles</summary>
+                        <p>Cantidad: 231ml</p>
+                        <p>Precio: $12.000</p>
+                        <p>¿Cómo conservarlo? Siempre debes guardarlo en tu nevera, siempre utiliza una cuchara limpia y no debe tener contacto directo con los alimentos.</p>
+                    </details>
+             </li>
+         </ul>
+        </div>
+    </section>
+
+    <form>
+        <label for="feedback"> Deja tu comentario </label>
+        <textarea id="feedback" name="feedback" rows="5" cols="30" maxlength="250" required placeholder="Escribe tu comentario aquí"></textarea>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+
+    <div class="conatiner-footer">
+        <footer>
+            <p> Puedes contactarte a nuestro correo
+            <a href="Contáctanos en caseritos@gmail.com">caseritos@gmail.com</a>
+            <nav>
+                <img src="iconowhats.png" width="100" height="80">
+                <a href="http://wa.link/4i8tnw">Contáctate a nuestro WhatsApp #1</a>
+                <a href="https://wa.link/sm5y8x">Contáctate a nuestro WhatsApp #2</a>
+                <img src="iconoface.png" width="100" height="80">
+                <a href="https://www.facebook.com/profile.php?id=100070514962832">Visita nuestro perfil en Facebook</a>
+                <img src="iconoinsta.png" width="180" height="150">
+                <a href="https://www.instagram.com/caseritos._/">Visita nuestro perfil en Instagram</a>
+            </nav>
+            <div class="logo-footer">
+                <img src="" alt="">
+            </div>
+            <hr>
+            <hr>© 2023, Caseritos.
+        </footer>
+    </div>
 </body>
-</html>
